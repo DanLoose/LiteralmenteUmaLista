@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Listas</title>
+</head>
+<body>
+    
+    <!-- pagina inicial -->
+    <div class="welcome">
+
+        <h1>SIMPLESMENTE UMA LISTA </h1>
+        <button id="novaLista" onclick="newList()" > Criar Nova Lista</button>
+
+    </div>
+
+    <!-- pagina main -->
+    <div class="lista">
+
+        <h4>literalmente uma lista</h4>
+
+        <div class="newItem">
+            <input type="text" name="" id="item" placeholder="novo item" value="" maxlength="22">
+            <button onclick="adicionar()"> + </button>    
+        </div>
+
+        <div class="elements">
+            
+        </div>
+
+    </div>
+
+    <script src="./JS/interface.js"></script>
+</body>
+</html>
